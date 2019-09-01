@@ -1,3 +1,10 @@
+'''
+It should be announced that this code is for fun
+'''
+
+
+
+
 from os import listdir
 import datetime
 

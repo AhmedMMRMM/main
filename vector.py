@@ -60,7 +60,7 @@ class Vector:
         '''Returns the unit vector of one vector'''
         uv = [0]*len(v.coords)
         for i in range(len(v.coords)):
-           uv[i]= Vector(v.coords[i]/ v.magnitude(v))
+            uv[i]= Vector(v.coords[i]/ v.magnitude(v))
         return uv
     def angles(v):
         '''Returns the angles beteen the vector and the main vectors'''

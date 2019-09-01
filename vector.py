@@ -31,9 +31,8 @@ class Vector:
             result = 0
             for i in range(len(v1.coords)):
                 result += v1.coords[i]*v2.coords[i]
-        '''To determine using left or right scalar multiplying'''
-            
         elif type(v2) in [type(0.0) ,type(0)] :
+            '''To determine using left or right scalar multiplying'''
             for i in range(len(v1.coords)):
                 result += v1.coords[i]*v2
         elif type(v1) in [type(0.0) ,type(0)] :

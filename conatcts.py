@@ -1,3 +1,8 @@
+'''
+It should be announced that this code is for fun
+'''
+
+
 from time import sleep
 import pickle
 class card:

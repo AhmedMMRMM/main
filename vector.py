@@ -76,11 +76,3 @@ class Vector:
     def is_perpendicular(v1,v2):
         '''works with only three dimensions'''
         return v1.cross_product.coords(v2) == [0,0,0]
-
-
-            
-        
-        
-        
-        
-        

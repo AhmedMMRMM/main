@@ -13,7 +13,7 @@ class card:
         self.phone = phone
         self.user = user
     def show(self):
-        print('\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+        print('\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
               ,self.name,self.email,self.adress, self.phone
               ,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \n'
               ,'log by',user,'\n'

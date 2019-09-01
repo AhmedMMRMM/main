@@ -23,7 +23,7 @@ flag = True
 pickle_in = open('cont.pickle','rb')
 contacts = pickle.load(pickle_in)
 pickle_in.close()
-user = input('May I be honor by knowing your name sir? (name)')
+user = input('May I be honored by knowing your name sir? (name)')
 while flag:
     print('Sir , Would like an over view of your contacts? yes or no')
     if input()== 'yes':

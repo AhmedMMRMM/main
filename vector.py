@@ -3,7 +3,7 @@ class Vector:
     def __init__(self,coords):
         self.coords = coords
     def __add__(v1 , v2):
-        ''' Adds two vectors each dimention with its equivilant'''
+        ''' Adds two vectors each dimension with its equivilant'''
         if len(v1.coords) != len(v2.coords):
             '''The validation of dimensions number'''
             raise ValueError('The added vectors don\'t have the same dimension number')
@@ -12,7 +12,7 @@ class Vector:
             result[i] = v1.coords[i]+v2.coords[i]
         return result
     def __sub__(v1 , v2):
-        ''' Adds two vectors each dimention with its equivilant'''
+        ''' Adds two vectors each dimension with its equivilant'''
         if len(v1.coords) != len(v2.coords):
             '''The validation of dimensions number'''
             raise ValueError('The added vectors don\'t have the same dimension number')

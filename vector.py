@@ -2,6 +2,8 @@ from math import acos,pi
 class Vector:
     def __init__(self,coords):
         self.coords = coords
+    def __eq__(self,newcoords):
+        self.coords = newcoords
     def __add__(v1 , v2):
         # Adds two vectors each dimension with its equivilant#
         if len(v1.coords) != len(v2.coords):

@@ -1,7 +1,7 @@
 from math import acos,pi
 class Vector:
     def __init__(self,coords):
-        self.coords = coords
+        self.coords = list(coords)
     def __eq__(self,newcoords):
         self.coords = newcoords
     def __add__(v1 , v2):

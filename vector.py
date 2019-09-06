@@ -1,6 +1,7 @@
 from math import acos,pi
 class Vector:
     def __init__(self,coords):
+        #to change the coordinations without usind the the inner sequence
         self.coords = list(coords)
     def __eq__(self,newcoords):
         self.coords = newcoords
